@@ -1,7 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="463aa66e-0154-4b41-bcbd-7a868e0cde09" name="Default Changelist" comment="" />
+    <list default="true" id="463aa66e-0154-4b41-bcbd-7a868e0cde09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bamboo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/ccp4_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/colours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/holders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/logs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/masks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/online.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/common/status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/coot_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/coot_utils/scripts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/coot_utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/html/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/html/builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/html/div.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/html/section.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/maths/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/maths/angles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/plot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/plot/bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/plot/radar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/plot/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/plot/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/pymol_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/pymol_utils/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rcsb_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/bonds/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/bonds/dihedral.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/bonds/fragment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/bonds/rotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/contacts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/contacts/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/coords/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/coords/coords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/coords/fragment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/coords/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/mol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/rdkit_utils/smile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/resources/FRAGMENTTESTFILES/fragment_ligand_fragged.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/resources/FRAGMENTTESTFILES/fragment_ligand_fragged_ref.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/resources/FRAGMENTTESTFILES/fragment_ligand_whole.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/resources/RMSDTESTFILES/lig-conf-1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/resources/RMSDTESTFILES/lig-conf-2.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/resources/RMSDTESTFILES/lig-orig.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/resources/RMSDTESTFILES/lig-shift-1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/resources/STRUCTURETESTFILES/varied_occupancy_ligand_test.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/regression/resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/resources/mlfsom.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/resources/summary_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/stats/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/stats/cluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/stats/networks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/stats/ospina.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/stats/statistical_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/stats/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_builders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_builders/elbow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_builders/grade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_builders/prodrg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_builders/writedict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_fitters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_fitters/arpwarp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_fitters/flynn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_fitters/ligandfit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/ligand_fitters/rhofit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/mlfsom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/refiners/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/wrappers/refiners/refmac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/xray/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bamboo/xray/maps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/graphics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/graphics/image_blobs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/grid/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/grid/masks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/grid/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/grid/voronoi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/io/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/io/arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/io/pdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/datasets_cluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/datasets_prepare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/datasets_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/make_restraints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/merge_conformations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/multi_table_ones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/quick_insert_f000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/quick_mtz_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/quick_mtz_phase_difference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/quick_refine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/quick_refmac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/sanitise_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/score_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/score_model_multiple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/score_model_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/split_conformations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/tbd/event_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/tbd/reduce_ensemble.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/tbd/set_occupancies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/jiffies/tbd/transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/ligands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/maths/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/maths/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/misc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/misc/perturb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/phil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/regression/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/regression/test_scale_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/regression/test_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/regression/tst_grid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/regression/tst_scale_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/regression/tst_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/resources/download_test_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/stats/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/stats/optimisation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/align.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/altlocs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/b_factors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/dihedrals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/ensembles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/iterators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/motion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/motion/tls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/occupancy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/pymol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/restraints/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/restraints/conformers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/restraints/external.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/restraints/occupancy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/restraints/peptides.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/tls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/uij.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/structure/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/crystal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/crystal/cluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/edstats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/maps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/maps/bdc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/maps/local_align.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/maps/scale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/refine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/scaling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/symmetry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/tls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giant/xray/unit_cell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_dataset_crystalography/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_dataset_crystalography/grid/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_dataset_crystalography/grid/masks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_dataset_crystalography/grid/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_dataset_crystalography/grid/voronoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_dataset_crystalography/dataset/reference.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_dataset_crystalography/dataset/reference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_dataset_crystalography/dataset/sample_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_dataset_crystalography/dataset/sample_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_dataset_crystalography/dataset/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_dataset_crystalography/dataset/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_dataset_crystalography/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi_dataset_crystalography/functions.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,34 +196,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            <state relative-caret-position="3780">
+              <caret line="264" column="44" selection-start-line="264" selection-start-column="44" selection-end-line="264" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/functional.py">
+        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/transforms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="165">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/pandda_phil.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/pandda_config.py">
+        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="195">
+              <caret line="153" column="23" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="23" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo/common/file.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo/common/holders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -48,8 +240,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/sample_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+            <state relative-caret-position="585">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -58,22 +250,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataset.py">
+        <entry file="file://$PROJECT_DIR$/giant/grid/masks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="1785">
+              <caret line="127" column="22" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/config.py">
+        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="73" selection-start-line="26" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="855">
+              <caret line="60" selection-end-line="91" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -81,30 +273,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/reference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1770">
-              <caret line="124" column="28" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/align.py">
+        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/partitioner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7380">
-              <caret line="508" selection-start-line="508" selection-end-line="508" />
+            <state relative-caret-position="45">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
-                <element signature="e#1#17#0" expanded="true" />
+                <element signature="e#70#2345#0" />
+                <element signature="e#2390#3522#0" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/structure/motion/tls.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -118,7 +303,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>space</find>
       <find>flex</find>
       <find>min_r</find>
       <find>log</find>
@@ -127,7 +311,32 @@
       <find>re</find>
       <find>new_f</find>
       <find>sample_loa</find>
+      <find>get_gr</find>
+      <find>15</find>
+      <find>grid_ge</find>
+      <find>grid</find>
+      <find>cpu</find>
+      <find>partition</find>
+      <find>GridS</find>
+      <find>asser</find>
+      <find>find_</find>
+      <find>masking</find>
+      <find>start</find>
+      <find>Grid</find>
+      <find>cop</find>
+      <find>DiffractionDa</find>
+      <find>Refere</find>
+      <find>ReferenceMapL</find>
+      <find>nn_</find>
+      <find>executo</find>
+      <find>Exec</find>
+      <find>icei</find>
+      <find>Dask</find>
+      <find>_Data</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -139,24 +348,27 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/multi_dataset_crystalography/align.py" />
-        <option value="$PROJECT_DIR$/multi_dataset_crystalography/functions.py" />
-        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/reference.py" />
-        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/transforms.py" />
-        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/sample_loader.py" />
         <option value="$PROJECT_DIR$/multi_dataset_crystalography/pandda_config.py" />
-        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataset.py" />
         <option value="$PROJECT_DIR$/multi_dataset_crystalography/config.py" />
-        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataloader.py" />
         <option value="$PROJECT_DIR$/multi_dataset_crystalography/functional.py" />
+        <option value="$PROJECT_DIR$/multi_dataset_crystalography/grid/masks.py" />
+        <option value="$PROJECT_DIR$/multi_dataset_crystalography/grid/__init__.py" />
+        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataset.py" />
+        <option value="$PROJECT_DIR$/multi_dataset_crystalography/functions.py" />
+        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/transforms.py" />
+        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataloader.py" />
+        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/reference.py" />
+        <option value="$PROJECT_DIR$/multi_dataset_crystalography/dataset/sample_loader.py" />
+        <option value="$PROJECT_DIR$/giant/grid/masks.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="207" />
-    <option name="y" value="34" />
-    <option name="width" value="1220" />
-    <option name="height" value="862" />
+    <option name="y" value="27" />
+    <option name="width" value="1278" />
+    <option name="height" value="661" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -177,6 +389,18 @@
             <path>
               <item name="multi_dataset_crystalography" type="b2602c69:ProjectViewProjectNode" />
               <item name="multi_dataset_crystalography" type="462c0819:PsiDirectoryNode" />
+              <item name="multi_dataset_crystalography" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi_dataset_crystalography" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi_dataset_crystalography" type="462c0819:PsiDirectoryNode" />
+              <item name="multi_dataset_crystalography" type="462c0819:PsiDirectoryNode" />
+              <item name="grid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi_dataset_crystalography" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi_dataset_crystalography" type="462c0819:PsiDirectoryNode" />
               <item name="multi_dataset_crystalography.egg-info" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -187,9 +411,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/multi_dataset_crystalography" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/multi_dataset_crystalography" />
       <recent name="$PROJECT_DIR$" />
@@ -221,10 +449,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1110" extended-state="7" />
+    <frame x="0" y="27" width="1536" height="814" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4074074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -254,13 +482,6 @@
     <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -277,40 +498,6 @@
       </provider>
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/transforms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7065">
-          <caret line="491" column="45" selection-start-line="491" selection-start-column="28" selection-end-line="491" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/partitioner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/functional.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -321,30 +508,20 @@
     <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/pandda_phil.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/sample_loader.py">
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/pandda_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+        <state relative-caret-position="15">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataset.py">
+    <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/reference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="124" column="28" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -358,25 +535,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/structure/motion/tls.py">
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/grid/voronoi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/grid/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/constants.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/grid/masks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="73" selection-start-line="26" selection-end-line="27" />
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/pandda_config.py">
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/structure/motion/tls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="630">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/grid/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giant/io/pdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/html/div.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3780">
+          <caret line="264" column="44" selection-start-line="264" selection-start-column="44" selection-end-line="264" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/transforms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/common/file.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/common/holders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/sample_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giant/grid/masks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="127" column="22" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="60" selection-end-line="91" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/reference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/partitioner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#70#2345#0" />
+            <element signature="e#2390#3522#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_dataset_crystalography/dataset/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="153" column="23" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

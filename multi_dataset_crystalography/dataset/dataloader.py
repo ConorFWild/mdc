@@ -1,4 +1,3 @@
-
 import re
 
 from collections import OrderedDict
@@ -6,22 +5,20 @@ from collections import OrderedDict
 # Standard lib
 import os
 import glob
-import shutil
-import pathlib as p
-# cctbx
+
 # Custom
-from bamboo.common.path import easy_directory, rel_symlink
 
 from dataset import PanddaDataset
 
-from constants import *
+from multi_dataset_crystalography.constants import *
+
 
 def load_dataset(pdb=None, mtz=None, dtag=None, num=None):
     # ==============================>
     # Load datasets in parallel
     # ==============================>
     dataset = PanddaDataset.from_file(model_filename=pdb,
-                            data_filename=mtz).label(num=num, tag=dtag)
+                                      data_filename=mtz).label(num=num, tag=dtag)
 
     # ==============================>
     # Initialise loaded datasets
@@ -215,7 +212,6 @@ class DefaultDataloader:
     def __init__(self,
                  data_dirs, pdb_style, mtz_style, pdb_regex, mtz_regex, dir_regex, only_datasets, ignore_datasets,
                  dataset_prefix, out_dir, lig_style):
-
         self.trace = OrderedDict()
 
         self.name = "DefaultDataloader"
@@ -245,7 +241,6 @@ class DefaultDataloader:
         self.lig_style = lig_style
 
     def __call__(self):
-
         pandda_input_directory_parser = PanddaParseInputDirectory(self.data_dirs,
                                                                   self.pdb_style,
                                                                   self.mtz_style,
@@ -263,6 +258,13 @@ class DefaultDataloader:
         # self.trace[pandda_dataset_loader.name] = pandda_dataset_loader.log()
 
         return pandda_datasets
+
+    def __repr__(self):
+        repr = {"data_dirs": self.data_dirs,
+                "pdb_style": self.pdb_style,
+                "mtz_style": self.mtz_style,
+                }
+        return repr
 
     # def log(self):
     #
@@ -418,7 +420,6 @@ class PanddaParseInputDirectory:
                 if tag in only_tags:
                     re_filtered_new_files.append(filtered_new_files[i])
 
-
             filtered_new_files = re_filtered_new_files
 
         # ==============================>
@@ -465,14 +466,13 @@ class PanddaDatasetLoader:
     def __call__(self, new_files):
         """Read in maps for the input datasets"""
 
-
         # ==============================>
         # Load datasets in parallel
         # ==============================>
         loaded_datasets = {dtag: PanddaDataset.from_file(model_filename=pdb,
                                                          data_filename=mtz).label(num=num, tag=dtag)
-            for num, (pdb, mtz, dtag)
-            in enumerate(new_files)}
+                           for num, (pdb, mtz, dtag)
+                           in enumerate(new_files)}
 
         # ==============================>
         # Initialise loaded datasets
@@ -515,4 +515,3 @@ class PanddaDatasetLoader:
     #     log["Errors"] = "Could not load datases: \n{}\n".format("\n".join(self.errors))
     #
     #     return log
-

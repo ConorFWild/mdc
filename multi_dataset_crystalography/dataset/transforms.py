@@ -18,7 +18,7 @@ from bamboo.stats import modified_z_scores
 from giant.xray.scaling import IsotropicBfactorScalingFactory
 from giant.xray.data import estimate_wilson_b_factor
 
-from pandda.analyse.functions import wrapper_run, DatasetAligner
+from multi_dataset_crystalography.functions import wrapper_run, DatasetAligner
 
 
 class PanddaDataChecker:
@@ -194,6 +194,13 @@ class PanddaDataChecker:
                                                                                  in self.rejections.items()]))
         return log
 
+    def repr(self):
+        repr = {}
+        repr["structure_factors"] = self.structure_factors
+        repr["low_resolution_completeness"] = self.low_resolution_completeness
+        repr["all_data_are_valid_values"] = self.all_data_are_valid_values
+        return repr
+
 
 class PanddaDiffractionScaler:
 
@@ -306,6 +313,12 @@ class PanddaDiffractionScaler:
                                                                                  for dtag, reason
                                                                                  in self.rejections.items()]))
         return log
+
+    def repr(self):
+        repr = {}
+        repr["rejections"] = self.rejections
+        repr["apply_b_factor_scaling"] = self.apply_b_factor_scaling
+        return repr
 
 
 class PanddaDatasetFiltererWilsonRMSD:
@@ -430,6 +443,15 @@ class PanddaDatasetFiltererWilsonRMSD:
                                                                                  in self.rejections_wilson_RMSD.items()]))
         return log
 
+    def repr(self):
+        repr = {}
+        repr["rejections_structural_deviation"] = self.rejections_structural_deviation
+        repr["rejections_wilson_RMSD"] = self.rejections_wilson_RMSD
+        repr["max_wilson_plot_z_score"] = self.max_wilson_plot_z_score
+        repr["apply_b_factor_scaling"] = self.apply_b_factor_scaling
+        repr["dataset_sfs"] = self.dataset_sfs
+        return repr
+
 
 class PanddaDatasetFilterer:
 
@@ -479,6 +501,15 @@ class PanddaDatasetFilterer:
                                                                                  for dtag, reason
                                                                                  in self.rejections_structural_deviation.items()]))
         return log
+
+    def repr(self):
+        repr = {}
+        repr["similar_models_only"] = self.similar_models_only
+        repr["max_rfree"] = self.max_rfree
+        repr["same_space_group_only"] = self.same_space_group_only
+        repr["rejections_structural_deviation"] = self.rejections_structural_deviation
+
+        return repr
 
 
 class PanddaDefaultStructureAligner:
@@ -571,6 +602,14 @@ class PanddaDefaultStructureAligner:
                                                                                        in self.alignments.items()
                                                                                        if val is False]))
         return log
+
+    def repr(self):
+        repr = {}
+        repr["method"] = self.method
+        repr["cpus"] = self.cpus
+        repr["alignments"] = self.alignments
+
+        return repr
 
 
 def same_spacegroup(dataset, reference_dataset):
