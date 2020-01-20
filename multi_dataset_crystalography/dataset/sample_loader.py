@@ -41,7 +41,7 @@ from multi_dataset_crystalography.functions import wrapper_run
 from multi_dataset_crystalography.dataset.reference import PanddaReferenceDataset
 
 import dask
-from dask.distributed import worker_client
+# from dask.distributed import worker_client
 
 
 class MapLoaderDask(object):
