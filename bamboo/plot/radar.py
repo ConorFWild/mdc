@@ -1,5 +1,9 @@
+import matplotlib
+matplotlib.use('agg')
+
 from matplotlib import pyplot
-pyplot.style.use('ggplot')
+# pyplot.style.use('ggplot')
+# pyplot.style.use('agg')
 
 import numpy
 
